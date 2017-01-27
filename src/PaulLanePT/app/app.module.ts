@@ -4,6 +4,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent }  from "./app.component";
 import { BackgroundVideoComponent } from "./home/background-video.component";
 import { SectionOneComponent } from "./home/section-one.component";
+import { PricesComponent } from "./home/prices.component";
 
 @NgModule({
     imports: [
@@ -12,7 +13,8 @@ import { SectionOneComponent } from "./home/section-one.component";
     declarations: [
         AppComponent,
         BackgroundVideoComponent,
-        SectionOneComponent
+        SectionOneComponent,
+        PricesComponent
     ],
     bootstrap: [
         AppComponent
