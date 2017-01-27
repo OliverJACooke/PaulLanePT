@@ -248,7 +248,7 @@ gulp.task("browsersync", function () {
         injectChanges: true,
         logFileChanges: true,
         logLevel: "info",
-        logPrefix: "Assessment Playground",
+        logPrefix: "PaulLanePT",
         notify: true,
         open: false
     });
