@@ -6,7 +6,8 @@
     background-image: url("../../assets/images/training.jpg");
     background-position: center;
     box-sizing: border-box;
-    
+    box-shadow: inset 0px 0px 17px 2px black;
+
     .services-info-container {
         min-height: 550px;
         background-color: rgba(0, 0, 0, 0.3);
@@ -16,7 +17,6 @@
             width: auto;
             -webkit-filter: brightness(0) invert(1);
             filter: brightness(0) invert(1);
-            text-shadow: 0 21px 21px #000000;
         }
 
         .title-img {
@@ -33,6 +33,7 @@
             width: 100%;
             text-align: center;
             box-sizing: border-box;
+            text-shadow: 0 21px 21px #000000;
 
             h2 {
                 color: white;

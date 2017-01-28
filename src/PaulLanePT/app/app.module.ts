@@ -7,6 +7,7 @@ import { SectionOneComponent } from "./home/section-one.component";
 import { PricesComponent } from "./home/prices.component";
 import { AboutComponent } from "./home/about.component";
 import { ServicesComponent } from "./home/services.component";
+import { TestimonialComponent } from "./home/testimonial.component";
 
 @NgModule({
     imports: [
@@ -18,7 +19,8 @@ import { ServicesComponent } from "./home/services.component";
         SectionOneComponent,
         PricesComponent,
         AboutComponent,
-        ServicesComponent
+        ServicesComponent,
+        TestimonialComponent
     ],
     bootstrap: [
         AppComponent
