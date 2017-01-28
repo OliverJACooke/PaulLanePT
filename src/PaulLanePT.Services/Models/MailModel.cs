@@ -8,8 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PaulLanePT.Services.Models
 {
-    public class MailConfig
+    public class MailModel
     {
-        public string MailgunKey { get; set; }
+        public string Name;
+        public string Email;
+        public string ContactNumber;
+        public string Service;
+        public string Message;
     }
 }

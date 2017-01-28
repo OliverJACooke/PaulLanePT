@@ -31,7 +31,7 @@ namespace PaulLanePT.Services
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.Configure<MailConfig>(Configuration.GetSection("Mailgun"));
+            services.Configure<MailConfig>(Configuration.GetSection("MailConfig"));
             services.AddMvc();
         }
 
