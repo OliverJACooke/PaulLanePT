@@ -6,6 +6,7 @@ import { BackgroundVideoComponent } from "./home/background-video.component";
 import { SectionOneComponent } from "./home/section-one.component";
 import { PricesComponent } from "./home/prices.component";
 import { AboutComponent } from "./home/about.component";
+import { ServicesComponent } from "./home/services.component";
 
 @NgModule({
     imports: [
@@ -16,7 +17,8 @@ import { AboutComponent } from "./home/about.component";
         BackgroundVideoComponent,
         SectionOneComponent,
         PricesComponent,
-        AboutComponent
+        AboutComponent,
+        ServicesComponent
     ],
     bootstrap: [
         AppComponent
