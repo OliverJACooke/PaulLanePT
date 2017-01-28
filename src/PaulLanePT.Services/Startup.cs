@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using PaulLanePT.Services.Models;
 
 namespace PaulLanePT.Services
 {
@@ -19,7 +20,9 @@ namespace PaulLanePT.Services
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
+            
             Configuration = builder.Build();
+
         }
 
         public IConfigurationRoot Configuration { get; }
@@ -28,6 +31,7 @@ namespace PaulLanePT.Services
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.Configure<MailConfig>(Configuration.GetSection("Mailgun"));
             services.AddMvc();
         }
 

@@ -286,3 +286,4 @@ build/
 typings/
 bower_components/
 fonts/
+appsettings.json
