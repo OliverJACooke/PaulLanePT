@@ -18,6 +18,21 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .slogan-container {
+
+        h1 {
+            line-height: 25px;
+            font-size: 18px;
+        }
+    }
+
+    button {
+        font-size: 14px !important;
+        padding: 10px 20px;
+    }
+}
+
 button {
     background-color: #2B153C;
     border: none;
@@ -35,18 +50,20 @@ button {
 
 
 button:hover {
-    margin-top:6px;
-     border-bottom: 2px solid #190c23;
+    margin-top: 6px;
+    border-bottom: 2px solid #190c23;
 }
 
 button:active {
-    opacity:.5;
+    opacity: .5;
 }
 
 .header-button {
-    text-align:center;
-    padding-top:25px;
-    box-sizing:border-box;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
 }
 
-.push { height:100vh;}
+.push {
+    height: 100vh;
+}
